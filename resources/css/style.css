@@ -92,3 +92,13 @@ nav ul {
 }
 
 /* Promoted Section */
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  height: 5rem;
+}
