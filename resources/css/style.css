@@ -54,6 +54,7 @@ header div img {
 .banner {
   background-image: url("../../resources/images/moto.jpeg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   padding-top: 9rem;
   height: 25rem;
@@ -125,6 +126,36 @@ nav ul {
 
 .promotedItem div p {
   padding: 0.5rem 0;
+}
+
+/* About Section */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.aboutBox {
+  width: 35%;
+}
+
+.aboutBox p {
+  background-color: black;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.aboutBox p span {
+  margin-left: 2rem;
+}
+
+.aboutBoxSpan {
+  display: block;
+  color: black;
+  padding-top: 0.2rem;
 }
 
 /* Footer */
