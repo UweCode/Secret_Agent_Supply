@@ -198,3 +198,52 @@ footer {
     display: none;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  .mainContainer {
+    width: 470px;
+  }
+  .banner {
+    height: 15rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  h5 {
+    font-size: 0.77rem;
+  }
+  #newArrivalsText {
+    margin-top: 10rem;
+    padding: 1rem 0;
+    width: 100%;
+  }
+  #newArrivalsText h1 {
+    margin-left: 2rem;
+  }
+  #newArrivalsText h5 {
+    margin: 0 0 0.6rem 2rem;
+  }
+  .promotedItems {
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  #promotedOne {
+    width: 90%;
+  }
+  #promotedTwo, #promotedThree {
+    display: none;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 12rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  .aboutBox {
+    width: 90%;
+  }
+}
