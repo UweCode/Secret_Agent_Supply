@@ -80,14 +80,13 @@ header div img {
   padding: 0.75rem 0;
 }
 
-.menu {
+#menu {
   display: none;
 }
 
-nav ul {
+#menuList {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 /* Promoted Section */
@@ -168,4 +167,34 @@ footer {
   align-items: center;
   background-color: black;
   height: 5rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+  .mainContainer {
+    width: 760px;
+  }
+  .banner {
+    height: 18rem;
+  }
+  #menu {
+    display: flex;
+    justify-content: center;
+  }
+  #menuList {
+    display: none;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h5 {
+    font-size: 0.9rem;
+  }
+  #promotedOne, #promotedTwo {
+    width: 47%;
+  }
+  #promotedThree {
+    display: none;
+  }
 }
